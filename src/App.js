@@ -2,7 +2,7 @@ import './App.css';
 import ComponentWithDualBackground from './components/SignIn';
 import Upload from './components/Upload';
 import Uploaded from './components/Uploaded';
-import {BrowserRouter as Router,Route,Routes, useParams} from "react-router-dom"
+import {BrowserRouter as Router,Route,Routes} from "react-router-dom"
 
 function App() {
   return (
