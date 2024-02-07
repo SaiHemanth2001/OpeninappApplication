@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import ComponentWithDualBackground from './components/SignIn';
+import Upload from './components/Upload';
+import Uploaded from './components/Uploaded';
+import {BrowserRouter as Router,Route,Routes, useParams} from "react-router-dom"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Routes>
+        <Route exact path='/' Component={ComponentWithDualBackground}></Route>
+        <Route exact path='/upload' Component={Upload}></Route>
+        <Route exact path='/uploaded' Component={Uploaded}></Route>
+      </Routes>
+      </Router>
     </div>
   );
 }
