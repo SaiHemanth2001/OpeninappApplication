@@ -41,7 +41,7 @@ const Uploaded = () => {
                 <div className='browse'>
                     <div className='excelbrowse'>
                         <SiMicrosoftexcel style={{ width: '35px', height: '35px', position: 'relative', top: '50px' }} />
-                        <p className='drop'>Drop your excel sheet here or <a href='/uploaded' style={{ color: '#605BFF' }}>browse</a></p>
+                        <p className='drop'>Drop your excel sheet here or <a href='/uploaded' style={{ color: '#605BFF', textDecoration: 'none'  }}>browse</a></p>
                     </div>
                     <a href='/uploaded' className='uploadbutton'style={{ color: 'gray', pointerEvents: 'none', textDecoration: 'none', cursor: 'not-allowed',opacity: 0.7  }}><MdOutlineFileUpload /> Upload</a>
                 </div>
