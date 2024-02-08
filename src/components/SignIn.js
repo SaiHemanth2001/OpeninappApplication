@@ -63,7 +63,7 @@ function ComponentWithDualBackground() {
                   Sign In
                 </a>
                 <div className='d-grid slide'>
-                  <a href='/register'>Forgot password?</a>
+                  <a href='/'>Forgot password?</a>
                 </div>
               </div>
             </div>
