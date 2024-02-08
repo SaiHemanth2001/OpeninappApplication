@@ -41,7 +41,16 @@ const Upload = () => {
                 <div className='browse'>
                     <div className='excelbrowse'>
                         <SiMicrosoftexcel style={{ width: '35px', height: '35px', position: 'relative', top: '50px' }} />
-                        <p className='drop'>Drop your excel sheet here or <a href='/upload' style={{ color: '#605BFF' }}>browse</a></p>
+                        <p className='drop'>Drop your excel sheet here or  <label style={{ color: '#605BFF' }} htmlFor="file-upload" className="custom-file-upload">
+                            browse
+                        </label>
+                            <input
+                                id="file-upload"
+                                type="file"
+                                accept=".xlsx, .xls"
+                                style={{ display: 'none' }}
+                            /></p>
+
                     </div>
                     <a className='uploadbutton' href='/uploaded'><MdOutlineFileUpload /> Upload</a>
                 </div>
