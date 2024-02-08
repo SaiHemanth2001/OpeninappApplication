@@ -63,12 +63,12 @@ function ComponentWithDualBackground() {
                   Sign In
                 </a>
                 <div className='d-grid slide'>
-                  <a href='/'>Forgot password?</a>
+                  <a href='/' style={{ textDecoration: 'none' }}>Forgot password?</a>
                 </div>
               </div>
             </div>
           </form>
-          <span style={{ color: 'grey' }}>Don't have an account? <a href='/'>Register here</a> </span>
+          <span style={{ color: 'grey' }}>Don't have an account? <a href='/' style={{ textDecoration: 'none' }}>Register here</a> </span>
         </div>
       </div>
     </div>
