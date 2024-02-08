@@ -31,6 +31,7 @@ function ComponentWithDualBackground() {
         <div >
           <h2 className="Auth-form-title"><b>Sign In</b></h2>
           <h6 className="Auth-form-title">Sign in to your account</h6>
+          <br/>
           <div className="button-container">
             <button className="rounded-button"><FcGoogle /> Sign in with Google</button>
             <button className="rounded-button"><FaApple /> Sign in with Apple</button>
